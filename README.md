@@ -14,8 +14,11 @@
 - На следующем этапе товары из машины выгружаются на склад магазина (уровень **ShopStore**). Если на складе недостаточно места, товары теряются (перемещаются на уровень **All_Lost**).
 
 ## Скриншоты Powersim Studio
-![Снимок экрана 2024-12-22 131504](https://github.com/user-attachments/assets/72740635-a11e-4902-a9e3-5513bfae9e35)
-![image copy](https://github.com/user-attachments/assets/8619d63c-a93c-42dd-a69b-733c557b1588)
+![Снимок экрана 2024-12-22 131504](https://github.com/user-attachments/assets/767e45aa-06d7-4968-a351-eaa16af92cf1)
+
+![image copy](https://github.com/user-attachments/assets/b76cd5fd-c75f-4052-a80a-209faa4775c2)
+
 
 ## Скриншот программмы
-![image-1 copy](https://github.com/user-attachments/assets/42efae22-9c4c-45ce-a76a-d65bd38a5b6b)
+![image-1 copy](https://github.com/user-attachments/assets/68c32df6-2505-41a8-bb5d-c0707d3f127d)
+
