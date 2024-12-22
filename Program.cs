@@ -79,7 +79,7 @@ int GetVolumeOfTransfer()
     int volumeOfTransfer;
     Console.WriteLine("Введите объем перевозки [20; 100]:");
 
-    while (int.TryParse(Console.ReadLine(), out volumeOfTransfer) && volumeOfTransfer < 20 && volumeOfTransfer > 100)
+    while (!int.TryParse(Console.ReadLine(), out volumeOfTransfer) || volumeOfTransfer < 20 || volumeOfTransfer > 100)
     {
         Console.WriteLine("Введите объем перевозки [20; 100]:");
     }
@@ -115,7 +115,7 @@ void TradeGoods()
     int retailPrice;
     Console.WriteLine("Введите розничную цену [100; 200]:");
 
-    while (int.TryParse(Console.ReadLine(), out retailPrice) && retailPrice < 100 && retailPrice > 200)
+    while (!int.TryParse(Console.ReadLine(), out retailPrice) || retailPrice < 100 || retailPrice > 200)
     {
         Console.WriteLine("Введите розничную цену [100; 200]:");
     }
